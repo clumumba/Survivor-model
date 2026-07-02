@@ -55,11 +55,9 @@ uvicorn main:app --reload
 
 ```
 {
-  "Pregnancies": 2,
-  "Glucose": 130,
-  "BloodPressure": 70,
-  "BMI": 28.5,
-  "Age": 45
+  "SEX": 1,
+  "Age": 45,
+  "Pclass": 2
 }
 ```
 
@@ -68,23 +66,17 @@ uvicorn main:app --reload
 ### Build the Docker Image
 
 ```
-docker build -t diabetes-prediction-model .
+docker build -t survivor-model .
 ```
 
 ### Run the Container
 
 ```
-docker run -p 8000:8000 diabetes-prediction-model
-```
-
-## Deploy to Kubernetes
-
-```
-kubectl apply -f diabetes-prediction-model-deployment.yaml
+docker run -p 8000:8000 survivor-model
 ```
 
 🙌 Credits
 
-Created by `ABHISHEK VEERAMALLA`
+Created by `CLumumba`
 
 Subscribe for more DevOps + MLOps content on the YouTube Channel - `Abhishek.Veeramalla`
