@@ -1,19 +1,18 @@
 # Survivor-model predictor. (FASTAPI + DOCKER + K8S)
 
 This project helps you learn Building and Deploying an ML Model using a simple and real-world use case: predicting whether a person is diabetic based on health metrics. We’ll go from:
-
--✅ Model Training
--✅ Building the Model locally
--✅ API Deployment with FastAPI
--✅ Dockerization
--✅ Kubernetes Deployment
+- ✅ Model Training
+- ✅ Building the Model locally
+- ✅ API Deployment with FastAPI
+- ✅ Dockerization
+- ✅ Kubernetes Deployment
 
 ---
 # PROBLEM STATEMENT:
 Predicting if a person would survive the titanic based on;
-AGE
-Pclass
-SEX
+- Age
+- Pclass
+- Sex
 
 ---
 
@@ -79,4 +78,3 @@ docker run -p 8000:8000 survivor-model
 
 Created by `CLumumba`
 
-Subscribe for more DevOps + MLOps content on the YouTube Channel - `Abhishek.Veeramalla`
